@@ -161,7 +161,7 @@ const sendMessage = async () => {
 
 
 
-      {/* Área de mensajes */}
+      {/* messages area */}
       <div className="h-[400px] overflow-y-auto space-y-2">
         {messages.map((msg, idx) => (
           <div key={idx} className={msg.role === "user" ? "text-right" : "text-left"}>
@@ -190,7 +190,7 @@ const sendMessage = async () => {
         <div ref={bottomRef} /> {/* Auto-scroll target */}
       </div>
 
-      {/* Entrada */}
+      {/* Input */}
       <div className="flex gap-2 items-end">
         <Textarea
           value={input}

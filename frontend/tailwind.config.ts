@@ -17,7 +17,7 @@ const config: Config = {
   },
   plugins: [
     require("tailwindcss-animate"),
-    require("@tailwindcss/typography"), // ✅ plugin necesario para clases `prose`
+    require("@tailwindcss/typography"), // required plugin for prose classes
   ],
 }
 
