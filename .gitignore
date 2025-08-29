@@ -1,0 +1,30 @@
+# === PYTHON BACKEND ===
+backend/__pycache__/
+backend/*.py[cod]
+backend/venv/
+backend/.env
+backend/chat_*_memory.json
+backend/vector_memory_*/
+
+# === NODE FRONTEND ===
+frontend/node_modules/
+frontend/.next/
+frontend/dist/
+frontend/.turbo/
+frontend/.env.local
+frontend/.env
+
+# === LOGS & DEBUG ===
+*.log
+
+# === IDEs ===
+.vscode/
+.idea/
+
+# === SYSTEM FILES ===
+.DS_Store
+Thumbs.db
+
+# === TEMP FILES ===
+*.swp
+*.swo
