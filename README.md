@@ -8,7 +8,7 @@ A local AI chat application using Ollama for LLM inference, LangChain for conver
 
 Here’s a preview of the local chat interface:
 
-![Local Chat Interface](assets/chat-interface.png)
+![Local Chat Interface](assets/chat-interface-dark.png)
 
 ---
 
